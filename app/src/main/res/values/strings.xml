@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">My Calculadora-Digitales I</string>
+    <string name="numeros_binarios">Binario</string>
+    <string name="numeros_decimales">Decimales</string>
+    <string name="numeros_octales">Octales</string>
+    <string name="numeros_hexadecimales">Hexadecimales</string>
+
+    <string name="Opeaciones_Basicas">Operaciones Basicas</string>
+    <string name="Conversion_Base">Conversiones entre Bases</string>
+    <string name="Codigos_Numericos">Codigos BCD</string>
+    <string name="Binario_Gray">Binario y Gray</string>
+
+    <string name="title_activity_operaciones_basicas">OperacionesBasicas</string>
+    <string name="number">Numero :</string>
+    <string name="base1">Base del Numero :</string>
+    <string name="base2">Base a Convertir :</string>
+    <string name="convertir">Convertir</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="result">Resultado :</string>
+    <string name="convertir8421">8421</string>
+    <string name="convertirexc3">EXC 3</string>
+    <string name="convertir2421">2421</string>
+    <string name="convertir7421">7421</string>
+    <string name="convertir5421">5421</string>
+    <string name="grayabinario">Gray a Binario</string>
+    <string name="binarioagray">Binario a Gray</string>
+
+</resources>
