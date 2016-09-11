@@ -40,7 +40,7 @@ public class GrayBinarioActivity extends AppCompatActivity {
 
         editresult= (EditText) findViewById(R.id.editresult);
 
-    }
+    }  //END
 
     public void limpiarcampos(View v) {
         editnumber.setText("");

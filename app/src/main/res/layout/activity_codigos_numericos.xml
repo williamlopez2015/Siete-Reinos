@@ -48,8 +48,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/convertir8421"
-                    android:id="@+id/buttonconvertir8421"
-                    android:onClick="convertirbcdadecimal"/>
+                    android:id="@+id/btn8421"
+                    android:onClick="convertir8421"/>
             </LinearLayout>
 
             <LinearLayout
@@ -62,8 +62,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/convertir7421"
-                    android:id="@+id/buttonconvertir7421"
-                    android:onClick="convertirbcdadecimal"/>
+                    android:id="@+id/btn7421"
+                    android:onClick="convertir7421"/>
             </LinearLayout>
 
             <LinearLayout
@@ -76,8 +76,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/convertir5421"
-                    android:id="@+id/buttonconvertir5421"
-                    android:onClick="convertirbcdadecimal"/>
+                    android:id="@+id/btn5421"
+                    android:onClick="convertir5421"/>
             </LinearLayout>
             <LinearLayout
                 android:orientation="vertical"
@@ -89,8 +89,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/convertir2421"
-                    android:id="@+id/buttonconvertir2421"
-                    android:onClick="convertirbcdadecimal"/>
+                    android:id="@+id/btn2421"
+                    android:onClick="convertir2421"/>
             </LinearLayout>
             <LinearLayout
                 android:orientation="vertical"
@@ -102,8 +102,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/convertirexc3"
-                    android:id="@+id/buttonconvertirexc3"
-                    android:onClick="convertirbcdadecimal"/>
+                    android:id="@+id/btnExc3"
+                    android:onClick="convertirExc3"/>
             </LinearLayout>
 
 
@@ -145,11 +145,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/editresult"/>
         </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editresult"/>
 
     </LinearLayout>
 

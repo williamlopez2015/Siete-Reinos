@@ -46,9 +46,6 @@
                 android:onClick="convertirgrayabinario"/>
 
 
-
-
-
             <Button
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="match_parent"

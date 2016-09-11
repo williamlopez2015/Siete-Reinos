@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="sv.edu.fia.eisi.ll08027.mycalculadora"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sv.edu.fia.eisi.ll08027.mycalculadora">
 
     <application
         android:allowBackup="true"
@@ -10,26 +10,23 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BinarioActivity"/>
-        <activity android:name=".OctalActivity"/>
-        <activity android:name=".DecimalActivity"/>
-        <activity android:name=".HexadecimalActivity"/>
+        <activity android:name=".BinarioActivity" />
+        <activity android:name=".OctalActivity" />
+        <activity android:name=".DecimalActivity" />
+        <activity android:name=".HexadecimalActivity" />
         <activity
             android:name=".OperacionesBasicasActivity"
             android:label="@string/title_activity_operaciones_basicas"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
-        <activity android:name=".ConvertirBasesActivity">
-        </activity>
-        <activity android:name=".CodigosNumericosActivity">
-        </activity>
-        <activity android:name=".GrayBinarioActivity">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".ConvertirBasesActivity"></activity>
+        <activity android:name=".CodigosNumericosActivity"></activity>
+        <activity android:name=".GrayBinarioActivity"></activity>
+        <activity android:name=".PruebaActivity"></activity>
     </application>
 
 </manifest>
